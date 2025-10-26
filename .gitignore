@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg
+*.whl
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store # macOS specific
+
+# Specific to Python projects
+.pytest_cache/
+htmlcov/
+.coverage.*
+.mypy_cache/
+.tox/
+*.log
+*.sqlite3 # For SQLite databases
+instance/ # Flask specific
+celerybeat-schedule # Celery specific
+
+# Environment variables
+.env
+.flaskenv
+
+# Jupyter Notebook specific
+.ipynb_checkpoints
+
+#ignore kaggle datasets
+kagglehub/

@@ -1,3 +1,4 @@
+import sys
 ## List of python katas to familiarize with from time to time
 ## Delete all code (except comments) to start afresh
 
@@ -41,3 +42,5 @@ print('Adding up all million numbers .... ', i)
 
 cubeList = [value**3 for value in range(1,11)]
 print(cubeList)
+
+print(sys.prefix)
